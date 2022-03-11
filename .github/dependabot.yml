@@ -1,0 +1,15 @@
+version: 2
+updates:
+
+  # Manage Git submodules.
+  - package-ecosystem: gitsubmodule
+    directory: /
+    schedule:
+      interval: daily
+      # Check for updates at 7am UTC.
+      time: "07:00"
+    commit-message:
+      prefix: "sub-docs:"
+    labels:
+      - c:deps
+      - oasis-core
