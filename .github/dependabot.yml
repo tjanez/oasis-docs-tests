@@ -9,7 +9,6 @@ updates:
       # Check for updates at 7am UTC.
       time: "07:00"
     commit-message:
-      prefix: "sub-docs:"
+      prefix: "submodules:"
     labels:
       - c:deps
-      - oasis-core
